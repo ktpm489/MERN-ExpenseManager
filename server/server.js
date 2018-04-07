@@ -7,6 +7,7 @@ var bodyParser = require('body-parser')
 var app = express()
 var mongoose = require('mongoose')
 app.set('view engine' , 'ejs')
+app.set('port', (process.env.PORT || 5000));
 app.set('views', path.join(__dirname, '../client'))
 app.use(express.static(path.join(__dirname, '../client')))
 // use mongoose
