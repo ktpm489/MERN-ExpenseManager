@@ -8,6 +8,9 @@ var app = express()
 var mongoose = require('mongoose')
 app.set('view engine' , 'ejs')
 app.set('port', (process.env.PORT || 5000));
+app.listen(process.env.PORT || 5000, () => {
+    console.log('Probably listening to heroku $PORT now ', process.env.PORT || 5000); // unless $PORT is undefined, in which case you're listening to 8081.
+})
 app.set('views', path.join(__dirname, '../client'))
 app.use(express.static(path.join(__dirname, '../client')))
 // use mongoose
