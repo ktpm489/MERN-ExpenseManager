@@ -1,0 +1,28 @@
+command  auto create bin folder
+config es lint
+npm install --save-dev babel-loader babel-core babel-preset-env webpack
+npm install ejs babel-preset-es2015 -- save
+
+https://www.npmjs.com/package/babel-loader
+https://medium.com/@vipinswarnkar1989/mern-stack-crud-app-using-create-react-app-react-redux-3299059db793
+
+https://blog.cloudboost.io/creating-your-first-mern-stack-application-b6604d12e4d3
+
+
+ position: fixed;
+
+display: inline-block;
+
+https://medium.com/@djoepramono/react-router-4-gotchas-2ecd1282de65
+
+
+bao mat , session
+
+
+https://forum.freecodecamp.org/t/storing-mongo-username-password-persistently-using-dotenv/50994
+
+auto update
+
+https://github.com/ktpm489/expense-manager-mern/blob/master/client/components/Delete.js
+
+why need bind this
