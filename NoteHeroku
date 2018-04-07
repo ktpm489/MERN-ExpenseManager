@@ -1,0 +1,22 @@
+heroku update
+heroku login
+heroku create
+git push heroku master
+heroku open
+heroku logs
+git commit -a -m 'commit'
+
+git status
+git push heroku master
+heroku local
+
+_+Set port
++ Set file duong dan
++ Kiem tra dependecy 
+tao file static.json
+
+set port lai 
+app.set('port', (process.env.PORT || 5000));
+app.listen(process.env.PORT || 5000, () => {
+    console.log('Probably listening to heroku $PORT now ', process.env.PORT || 5000); // unless $PORT is undefined, in which case you're listening to 8081.
+})
