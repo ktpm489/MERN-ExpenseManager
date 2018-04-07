@@ -28,6 +28,7 @@
     "webpack-dev-server": "^3.1.1"
   },
   "scripts": {
+    "prestart": "next build",
     "webpack": "webpack",
     "build": "webpack",
     "start": "npm run webpack && nodemon --exec babel-node -- bin/www",
