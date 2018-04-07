@@ -29,7 +29,7 @@
   },
   "scripts": {
     "webpack": "webpack",
-    "build": "react-scripts build",
+    "build": "webpack",
     "start": "npm run webpack && nodemon --exec babel-node -- bin/www",
     "heroku-postbuild": "npm run build"
   },
