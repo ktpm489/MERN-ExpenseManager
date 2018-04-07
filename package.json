@@ -29,7 +29,8 @@
   },
   "scripts": {
     "webpack": "webpack",
-    "build": "webpack",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
     "start": "npm run webpack && nodemon --exec babel-node -- bin/www",
     "heroku-postbuild": "npm run build"
   },
